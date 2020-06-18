@@ -29,7 +29,7 @@ p {
     position: relative;
     top: 0px;
     bottom: 0px;
-    height: 100vh;
+    height: auto;
 }
 
 #index-header-section::before {
@@ -56,7 +56,7 @@ p {
 .main-content {
     text-align: center;
     color: white;
-    margin-top: 135px;
+    padding-bottom: 106px;
     position: relative;
 }
 
