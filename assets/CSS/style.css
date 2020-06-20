@@ -140,12 +140,12 @@ p {
 }
 
 /*HEADER SECTION MEDIA QUEIRES*/
-@media only screen and (max-device-width: 736px) and (min-device-width: 414px) {
+@media only screen and (min-device-width: 425px) {
     #index-header-section {
-        background-size: cover;
-        height: auto;
-        min-height: 100%;
-        background-position: center;
+        background-size: cover !important;
+        height: auto !important;
+        min-height: 100% !important;
+        background-position: center !important;
     }
 }
 
@@ -586,10 +586,12 @@ p {
         border-color: white !important;
     }
 
+    /*
     #index-header-section {
         height: 80vh;
         overflow: hidden;
     }
+*/
 
     .main-content {
         margin-top: 0px;
@@ -628,6 +630,7 @@ p {
 
 @media only screen and (min-device-width : 414px) and (max-device-width : 736px) {
 
+    /*
     #index-header-section {
         background: url(../images/index-imgPhone.jpg);
         background-size: cover;
@@ -635,6 +638,7 @@ p {
         min-height: 100%;
         background-position: center;
     }
+*/
 
     .main-content {
         margin-top: 0px;
@@ -687,8 +691,10 @@ p {
         border-color: white !important;
     }
 
+    /*
     #index-header-section {
         height: 80vh;
         overflow: hidden;
     }
+*/
 }
