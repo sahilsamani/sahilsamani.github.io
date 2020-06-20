@@ -139,6 +139,17 @@ p {
     color: white;
 }
 
+/*HEADER SECTION MEDIA QUEIRES*/
+@media only screen and (max-device-width: 736px) and (min-device-width: 414px) {
+    #index-header-section {
+        background-size: cover;
+        height: auto;
+        min-height: 100%;
+        background-position: center;
+    }
+}
+
+/*PROJECT SECTION MEDIA QUERIES*/
 @media screen and (min-width:840px) {
     .col-sm-6 .img-responsive {
         height: 100%;
