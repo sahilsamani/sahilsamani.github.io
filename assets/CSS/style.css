@@ -79,6 +79,72 @@ p {
 }
 
 
+/**********PROJECT SECTION STARTS HERE**********/
+
+.col-sm-6 .img-responsive {
+    width: 100%;
+    height: auto;
+
+}
+
+.col-sm-6 .project-1-header {
+    color: white;
+    text-align: center;
+    margin: 50px;
+    letter-spacing: 0.05em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.col-sm-6 .project-1-paragraph {
+    color: white;
+    text-align: center;
+    letter-spacing: 0.07em;
+    margin: 25px;
+    height: auto;
+    width: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.col-sm-6 .project-button-1 .btn {
+    color: white;
+    border: 2px solid white;
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.col-sm-6 .myrole-section {
+    width: 50%;
+    height: 50px;
+    width: 50%;
+    height: auto;
+    padding: 18px;
+    float: left;
+}
+
+.col-sm-6 .myrole-section .rightside {
+    text-align: center;
+    color: white;
+}
+
+.col-sm-6 .maingoal-section {
+    width: 50%;
+    height: auto;
+    float: left;
+    padding: 18px;
+}
+
+.col-sm-6 .maingoal-section .leftside {
+    text-align: center;
+    color: white;
+}
+
+@media screen and (min-width:840px) {
+    .col-sm-6 .img-responsive {
+        height: 100%;
+    }
+}
+
 
 
 /************* DESIGN PAGE STARTS HERE ************************/
