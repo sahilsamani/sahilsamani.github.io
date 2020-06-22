@@ -12,13 +12,7 @@ html {
 }
 */
 
-h1 {
-    font-family: 'Lora', serif;
-}
 
-p {
-    font-family: 'Merriweather', serif;
-}
 
 /* MAIN HEADER SECTION */
 
@@ -113,6 +107,14 @@ p {
     padding: 15px;
 }
 
+.col-sm-6 .project-button-1 .btn:hover {
+    background-color: white;
+    color: black;
+    /*    font-weight: 300;*/
+    transition-duration: 0.4s;
+
+}
+
 .col-sm-6 .myrole-section {
     width: 50%;
     height: 50px;
@@ -124,6 +126,7 @@ p {
 
 .col-sm-6 .myrole-section .rightside {
     text-align: center;
+    font-family: 'Roboto', sans-serif;
     color: white;
 }
 
@@ -136,17 +139,24 @@ p {
 
 .col-sm-6 .maingoal-section .leftside {
     text-align: center;
+    font-family: 'Roboto', sans-serif;
     color: white;
 }
 
 /*HEADER SECTION MEDIA QUEIRES*/
-@media only screen and (min-device-width: 425px) {
+@media screen and (min-width:425px) {
     #index-header-section {
         background-size: cover !important;
         height: auto !important;
         min-height: 100% !important;
         background-position: center !important;
     }
+
+    /*
+    .index-title h1 {
+        margin-top: 0px !important;
+    }
+*/
 }
 
 /*PROJECT SECTION MEDIA QUERIES*/
