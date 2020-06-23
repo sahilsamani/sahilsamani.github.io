@@ -12,6 +12,9 @@ html {
 }
 */
 
+p {
+    margin-bottom: 0px !important;
+}
 
 
 /* MAIN HEADER SECTION */
@@ -212,6 +215,7 @@ html {
 
 /* ABOUT ME SECTION */
 
+/*
 .common-title {
     text-align: center;
     font-family: 'Lora', serif;
@@ -224,6 +228,7 @@ html {
     font-family: 'Open Sans', sans-serif;
     font-size: 56px;
 }
+*/
 
 /*
 .common-title::before {
@@ -517,8 +522,8 @@ html {
     background-color: #3a4c66;
 }
 
-#footer-section .col-md-12 p {
-    margin-top: 14px;
+#footer-section .copyright-section {
+    margin-top: 80px;
     color: white;
     font-size: 0.9em;
 }
