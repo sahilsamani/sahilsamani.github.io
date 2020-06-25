@@ -554,6 +554,10 @@ body {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
+    #index-header-section::before {
+        opacity: 1.9 !important;
+    }
+
     .col-sm-6 .maingoal-section {
         float: none;
         margin: 0 auto;
@@ -601,7 +605,7 @@ body {
     }
 
     .col-sm-6 .img-responsive {
-/*        margin-top: 50px;*/
+        /*        margin-top: 65px !important;*/
         height: auto;
         width: 100% !important;
     }
@@ -610,13 +614,82 @@ body {
         margin-top: 0px !important;
     }
 
+    /*
     .col-md-12 .col-sm .skill-3 {
         margin-right: 10px !important;
     }
+*/
 
     .col-md-12 .col-sm {
         margin-right: 10px !important;
+        padding: 46px !important;
     }
+
+
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    .col-sm-6 .project-button-1 .btn {
+        margin-top: 30px;
+        margin-left: 0px !important;
+
+        margin-right: 0px !important;
+
+
+    }
+
+    .col-sm-6 .myrole-section {
+        float: none !important;
+        margin: 0 auto !important;
+    }
+
+    .col-sm-6 .maingoal-section {
+        float: none !important;
+        margin: 0 auto !important;
+    }
+
+    .common-horizontal-line {
+        margin-right: 54px !important;
+        margin-top: 40px !important;
+        width: 70% !important;
+    }
+
+    .col-sm-6 .project-1-paragraph {
+        margin-left: 0px !important;
+        text-align: center !important;
+        margin: 0 auto !important;
+        padding: 20px !important;
+    }
+
+    .col-sm-6 .project-1-header {
+        text-align: center !important;
+        margin-right: 0px !important;
+        margin: 0 auto !important;
+        margin-top: 33px;
+        padding: 28px;
+
+    }
+
+
+
+
+    .about-me-title {
+        margin: 0 auto !important;
+
+        margin-right: 0px !important;
+    }
+
+
+    .col-md-12 .col-sm {
+        /*        margin-right: 0px !important;*/
+        margin: 10px !important;
+
+    }
+
+
 
 
 }
