@@ -551,6 +551,84 @@ body {
 
 /* MEDIA QUERIES */
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .col-sm-6 .maingoal-section {
+        float: none;
+        margin: 0 auto;
+    }
+
+    .col-sm-6 .myrole-section {
+        float: none;
+        margin: 0 auto;
+    }
+
+    .col-sm-6 .project-button-1 .btn {
+        margin-top: 30px;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+
+    .common-horizontal-line {
+        margin-right: 58px !important;
+        margin-top: 40px !important;
+        width: 70% !important;
+    }
+
+    .horizontal-line-project1 {
+        margin-top: 40px !important;
+    }
+
+    .col-sm-6 .project-1-paragraph {
+        margin-left: 0px !important;
+        text-align: center !important;
+        margin: 0 auto !important;
+        padding: 20px !important;
+    }
+
+    .col-sm-6 .project-1-header {
+        text-align: center !important;
+        margin-right: 0px !important;
+        margin: 0 auto !important;
+        margin-top: 33px;
+        padding: 28px;
+
+    }
+
+    .about-me-title {
+        margin: 0 auto !important;
+    }
+
+    .col-sm-6 .img-responsive {
+/*        margin-top: 50px;*/
+        height: auto;
+        width: 100% !important;
+    }
+
+    .col-md-12 .common-title .skills-header {
+        margin-top: 0px !important;
+    }
+
+    .col-md-12 .col-sm .skill-3 {
+        margin-right: 10px !important;
+    }
+
+    .col-md-12 .col-sm {
+        margin-right: 10px !important;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 600px) {
     .contactMe-section {
         flex-direction: column;
