@@ -14,8 +14,25 @@ html {
 
 p {
     margin-bottom: 0px !important;
+    font-family: 'Roboto', sans-serif !important;
 }
 
+html,
+body {
+    overflow-x: hidden;
+}
+
+/*
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+*/
+
+body {
+    position: relative
+}
 
 /* MAIN HEADER SECTION */
 
@@ -30,6 +47,8 @@ p {
     bottom: 0px;
     height: auto;
 }
+
+
 
 #index-header-section::before {
     content: '';
@@ -105,6 +124,7 @@ p {
 .col-sm-6 .project-button-1 .btn {
     color: white;
     border: 2px solid white;
+    margin-top: 25px;
     text-align: center;
     margin: 0 auto;
     padding: 15px;
