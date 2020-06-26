@@ -111,6 +111,15 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.col-sm-6 .about-me-title {
+    color: white;
+    text-align: center;
+    margin: 50px;
+    letter-spacing: 0.05em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
 .col-sm-6 .project-1-paragraph {
     color: white;
     text-align: center;
@@ -120,6 +129,8 @@ body {
     width: auto;
     font-family: 'Roboto', sans-serif;
 }
+
+/*Project 1 Button*/
 
 .col-sm-6 .project-button-1 .btn {
     color: white;
@@ -137,6 +148,58 @@ body {
     transition-duration: 0.4s;
 
 }
+
+/*Project Button  GITHUB  */
+.col-sm-6 .project-github .btn {
+    color: white;
+    border: 2px solid white;
+    margin-top: 25px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px;
+    position: relative !important;
+    bottom: 18px !important;
+    margin-left: 77px !important;
+    width: 70% !important;
+}
+
+.col-sm-6 .project-github .btn:hover {
+    background-color: white;
+    color: black;
+    /*    font-weight: 300;*/
+    transition-duration: 0.4s;
+
+}
+
+/*Project Button  ACTUAL WEBSITE  */
+.col-sm-6 .project-website .btn {
+    color: white;
+    border: 2px solid white;
+    margin-top: 25px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px;
+    margin-right: 54px;
+}
+
+.col-sm-6 .project-website .btn:hover {
+    background-color: white;
+    color: black;
+    /*    font-weight: 300;*/
+    transition-duration: 0.4s;
+
+}
+
+.common-horizontal-line {
+    border: 1px solid white;
+    width: 74%;
+    margin-top: 20px;
+    margin-right: 65px;
+}
+
+
+
+
 
 .col-sm-6 .myrole-section {
     width: 50%;
@@ -166,28 +229,7 @@ body {
     color: white;
 }
 
-/*HEADER SECTION MEDIA QUEIRES*/
-@media screen and (min-width:425px) {
-    #index-header-section {
-        background-size: cover !important;
-        height: auto !important;
-        min-height: 100% !important;
-        background-position: center !important;
-    }
 
-    /*
-    .index-title h1 {
-        margin-top: 0px !important;
-    }
-*/
-}
-
-/*PROJECT SECTION MEDIA QUERIES*/
-@media screen and (min-width:840px) {
-    .col-sm-6 .img-responsive {
-        height: 100%;
-    }
-}
 
 
 
@@ -549,7 +591,43 @@ body {
 }
 
 
-/* MEDIA QUERIES */
+/********************* MEDICAL PROJECT SECTION STARTS HERE ***********************/
+
+.container .problem-header {
+    color: white;
+    text-align: center;
+    margin: 50px;
+    letter-spacing: 0.05em;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.container .problem-para-1 {
+    font-size: 20px;
+    margin: 53px;
+    color: white;
+    text-align: center;
+    margin: 50px;
+    letter-spacing: 0.05em;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.container .problem-para-2 {
+    font-size: 16px;
+    margin: 53px;
+    color: white;
+    text-align: center;
+    margin: 50px;
+    letter-spacing: 0.05em;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+
+
+/****************** MEDIA QUERIES **********************/
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -568,11 +646,103 @@ body {
         margin: 0 auto;
     }
 
+    .col-sm-6 .project-github .btn {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+
+    .col-sm-6 .project-website .btn {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+
+
+    .common-horizontal-line {
+        margin-right: 58px !important;
+        margin-top: 40px !important;
+        width: 70% !important;
+    }
+
+    .horizontal-line-project1 {
+        margin-top: 40px !important;
+    }
+
+    .col-sm-6 .project-1-paragraph {
+        margin-left: 0px !important;
+        text-align: center !important;
+        margin: 0 auto !important;
+        padding: 20px !important;
+    }
+
+    .col-sm-6 .project-1-header {
+        text-align: center !important;
+        margin-right: 0px !important;
+        margin: 0 auto !important;
+        margin-top: 33px;
+        padding: 28px;
+
+    }
+
+    .col-sm-6 .about-me-title {
+        margin: 0 auto !important;
+        text-align: center !important;
+
+    }
+
+    .col-sm-6 .img-responsive {
+        margin-top: 92px !important;
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .col-md-12 .common-title .skills-header {
+        margin-top: 0px !important;
+    }
+
+    /*
+    .col-md-12 .col-sm .skill-3 {
+        margin-right: 10px !important;
+    }
+*/
+
+    .col-md-12 .col-sm {
+        margin-right: 10px !important;
+        padding: 40px !important;
+    }
+
+
+
+    #index-header-section::before {
+        opacity: 1.9 !important;
+    }
+
+    .col-sm-6 .maingoal-section {
+        float: none;
+        margin: 0 auto;
+    }
+
+    .col-sm-6 .myrole-section {
+        float: none;
+        margin: 0 auto;
+    }
+
+    .col-sm-6 .project-github .btn {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+
+    .col-sm-6 .project-website .btn {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+
+    /*
     .col-sm-6 .project-button-1 .btn {
         margin-top: 30px;
         margin-left: 0px !important;
         margin-right: 0px !important;
     }
+*/
 
     .common-horizontal-line {
         margin-right: 58px !important;
@@ -605,282 +775,19 @@ body {
     }
 
     .col-sm-6 .img-responsive {
-        /*        margin-top: 65px !important;*/
-        height: auto;
+        margin-top: 92px !important;
         width: 100% !important;
+        height: auto !important;
     }
 
     .col-md-12 .common-title .skills-header {
         margin-top: 0px !important;
     }
 
-    /*
-    .col-md-12 .col-sm .skill-3 {
-        margin-right: 10px !important;
-    }
-*/
-
-    .col-md-12 .col-sm {
-        margin-right: 10px !important;
-        padding: 46px !important;
-    }
-
-
-}
-
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-
-    .col-sm-6 .project-button-1 .btn {
-        margin-top: 30px;
-        margin-left: 0px !important;
-
-        margin-right: 0px !important;
-
-
-    }
-
-    .col-sm-6 .myrole-section {
-        float: none !important;
-        margin: 0 auto !important;
-    }
-
-    .col-sm-6 .maingoal-section {
-        float: none !important;
-        margin: 0 auto !important;
-    }
-
-    .common-horizontal-line {
-        margin-right: 54px !important;
-        margin-top: 40px !important;
-        width: 70% !important;
-    }
-
-    .col-sm-6 .project-1-paragraph {
-        margin-left: 0px !important;
-        text-align: center !important;
-        margin: 0 auto !important;
-        padding: 20px !important;
-    }
-
-    .col-sm-6 .project-1-header {
-        text-align: center !important;
-        margin-right: 0px !important;
-        margin: 0 auto !important;
-        margin-top: 33px;
-        padding: 28px;
-
-    }
-
-
-
-
-    .about-me-title {
-        margin: 0 auto !important;
-
-        margin-right: 0px !important;
-    }
 
 
     .col-md-12 .col-sm {
-        /*        margin-right: 0px !important;*/
-        margin: 10px !important;
-
+        margin-right: 10px !important;
+        padding: 40px !important;
     }
-
-
-
-
-}
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 600px) {
-    .contactMe-section {
-        flex-direction: column;
-    }
-
-    .message-section textarea {
-        height: 80px;
-    }
-
-    .input-sections,
-    .message-section {
-        width: 100%;
-    }
-}
-
-
-@media only screen and (min-width: 320px) and (max-width: 479px) {
-
-    .main-content {
-        margin-top: 0px;
-    }
-
-    #projects-section .carousel-inner .project-image img {
-        width: 100%;
-        text-align: center;
-    }
-
-    #projects-section .content h1 {
-        font-size: 25px;
-    }
-
-    #projects-section .text-container {
-        width: 100%;
-        font-size: 14px;
-    }
-
-    .common-title::before {
-        content: none;
-
-    }
-
-    .common-title::after {
-        content: none;
-
-    }
-
-    .common-title {
-        padding-top: 35px;
-        padding-bottom: 30px;
-    }
-
-}
-
-
-@media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
-
-
-    .navbar-light .navbar-toggler {
-        margin: 0 auto;
-    }
-
-    .navbar {
-        text-align: center;
-    }
-
-    .navbar-light .navbar-toggler {
-        color: white !important;
-        border-color: white !important;
-    }
-
-    /*
-    #index-header-section {
-        height: 80vh;
-        overflow: hidden;
-    }
-*/
-
-    .main-content {
-        margin-top: 0px;
-    }
-
-    #projects-section .carousel-inner .project-image img {
-        width: 100%;
-        text-align: center;
-    }
-
-    #projects-section .content h1 {
-        font-size: 25px;
-    }
-
-    #projects-section .text-container {
-        width: 100%;
-        font-size: 14px;
-    }
-
-    .common-title::before {
-        content: none;
-
-    }
-
-    .common-title::after {
-        content: none;
-
-    }
-
-    .common-title {
-        padding-top: 35px;
-        padding-bottom: 30px;
-    }
-}
-
-
-@media only screen and (min-device-width : 414px) and (max-device-width : 736px) {
-
-    /*
-    #index-header-section {
-        background: url(../images/index-imgPhone.jpg);
-        background-size: cover;
-        height: 100vh;
-        min-height: 100%;
-        background-position: center;
-    }
-*/
-
-    .main-content {
-        margin-top: 0px;
-    }
-
-    #projects-section .carousel-inner .project-image img {
-        width: 100%;
-        text-align: center;
-
-    }
-
-    #projects-section .content h1 {
-        font-size: 25px;
-    }
-
-    #projects-section .text-container {
-        width: 100%;
-        font-size: 14px;
-    }
-
-    .common-title::before {
-        content: none;
-
-    }
-
-    .common-title::after {
-        content: none;
-
-    }
-
-    .common-title {
-        padding-top: 35px;
-        padding-bottom: 30px;
-    }
-}
-
-
-@media only screen and (min-device-width : 414px) and (max-device-width : 736px) {
-
-    .navbar-light .navbar-toggler {
-        margin: 0 auto;
-    }
-
-    .navbar {
-        text-align: center;
-    }
-
-    .navbar-light .navbar-toggler {
-        color: white !important;
-        border-color: white !important;
-    }
-
-    /*
-    #index-header-section {
-        height: 80vh;
-        overflow: hidden;
-    }
-*/
 }
