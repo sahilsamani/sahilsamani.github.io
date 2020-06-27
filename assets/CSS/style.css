@@ -114,9 +114,14 @@ body {
 .col-sm-6 .about-me-title {
     color: white;
     text-align: center;
-    margin: 50px;
+    /*    margin: 50px;*/
     letter-spacing: 0.05em;
     font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    font-size: 84px;
+    /* margin-right: 190px; */
+    /* margin-right: 69px; */
+    margin: 25px;
 }
 
 
@@ -128,6 +133,9 @@ body {
     height: auto;
     width: auto;
     font-family: 'Roboto', sans-serif;
+    /* margin-left: 303px; */
+    line-height: 2rem;
+    text-align: left;
 }
 
 /*Project 1 Button*/
@@ -690,7 +698,7 @@ body {
     }
 
     .col-sm-6 .img-responsive {
-        margin-top: 92px !important;
+/*        margin-top: 92px !important;*/
         width: 100% !important;
         height: auto !important;
     }
@@ -774,11 +782,13 @@ body {
         margin: 0 auto !important;
     }
 
+    /*
     .col-sm-6 .img-responsive {
         margin-top: 92px !important;
         width: 100% !important;
         height: auto !important;
     }
+*/
 
     .col-md-12 .common-title .skills-header {
         margin-top: 0px !important;
@@ -789,5 +799,207 @@ body {
     .col-md-12 .col-sm {
         margin-right: 10px !important;
         padding: 40px !important;
+    }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+    #index-header-section::before {
+        opacity: 1.9 !important;
+    }
+
+    .col-sm-6 .maingoal-section {
+        float: none;
+        margin: 0 auto;
+    }
+
+    .col-sm-6 .myrole-section {
+        float: none;
+        margin: 0 auto;
+    }
+
+    .col-sm-6 .project-github .btn {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+
+    .col-sm-6 .project-website .btn {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+
+
+    .common-horizontal-line {
+        margin-right: 58px !important;
+        margin-top: 40px !important;
+        width: 70% !important;
+    }
+
+    .horizontal-line-project1 {
+        margin-top: 40px !important;
+    }
+
+    .col-sm-6 .project-1-paragraph {
+        margin-left: 0px !important;
+        text-align: center !important;
+        margin: 0 auto !important;
+        padding: 20px !important;
+    }
+
+    .col-sm-6 .project-1-header {
+        text-align: center !important;
+        margin-right: 0px !important;
+        margin: 0 auto !important;
+        margin-top: 33px;
+        padding: 28px;
+
+    }
+
+    .col-sm-6 .about-me-title {
+        margin: 0 auto !important;
+        text-align: center !important;
+
+    }
+
+    .col-sm-6 .img-responsive {
+/*        margin-top: 92px !important;*/
+        width: 100% !important;
+        height: auto !important;
+        max-width: 100% !important;
+    }
+
+    .col-md-12 .common-title .skills-header {
+        margin-top: 0px !important;
+    }
+
+    /*
+    .col-md-12 .col-sm .skill-3 {
+        margin-right: 10px !important;
+    }
+*/
+
+    .col-md-12 .col-sm {
+        margin-right: 10px !important;
+        padding: 40px !important;
+    }
+
+
+
+    #index-header-section::before {
+        opacity: 1.9 !important;
+    }
+
+    .col-sm-6 .maingoal-section {
+        float: none;
+        margin: 0 auto;
+    }
+
+    .col-sm-6 .myrole-section {
+        float: none;
+        margin: 0 auto;
+    }
+
+    .col-sm-6 .project-github .btn {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+
+    .col-sm-6 .project-website .btn {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+
+    /*
+    .col-sm-6 .project-button-1 .btn {
+        margin-top: 30px;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+*/
+
+    .common-horizontal-line {
+        margin-right: 58px !important;
+        margin-top: 40px !important;
+        width: 70% !important;
+    }
+
+    .horizontal-line-project1 {
+        margin-top: 40px !important;
+    }
+
+    .col-sm-6 .project-1-paragraph {
+        margin-left: 0px !important;
+        text-align: center !important;
+        margin: 0 auto !important;
+        padding: 20px !important;
+    }
+
+    .col-sm-6 .project-1-header {
+        text-align: center !important;
+        margin-right: 0px !important;
+        margin: 0 auto !important;
+        margin-top: 33px;
+        padding: 28px;
+
+    }
+
+    .about-me-title {
+        margin: 0 auto !important;
+    }
+
+
+
+    .col-md-12 .common-title .skills-header {
+        margin-top: 0px !important;
+    }
+
+
+
+    .col-md-12 .col-sm {
+        margin-right: 10px !important;
+        padding: 40px !important;
+    }
+}
+
+/* Media Query for Laptops and Desktops */
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+    .col-sm-6 .about-me-title {
+        color: white;
+        text-align: center;
+        /*    margin: 50px;*/
+        letter-spacing: 0.05em;
+        font-family: 'Open Sans', sans-serif;
+        text-align: left;
+        font-size: 84px;
+        /* margin-right: 190px; */
+        /* margin-right: 69px; */
+        margin: 0px !important;
+    }
+
+
+    .col-sm-6 .project-1-paragraph {
+        color: white;
+        text-align: center;
+        letter-spacing: 0.07em;
+/*        margin: 0px !important;*/
+        height: auto;
+        width: auto;
+        font-family: 'Roboto', sans-serif;
+        /* margin-left: 303px; */
+        line-height: 2rem;
+        text-align: left;
+    }
+}
+
+/* Media Query for Large screens */
+@media only screen and (min-width: 1600px) {
+    .col-sm-6 .project-1-paragraph {
+        margin-left: 0px !important;
+    }
+
+    .col-sm-6 .about-me-title {
+        margin: 0px !important;
+
     }
 }
