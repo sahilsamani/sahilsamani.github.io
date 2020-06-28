@@ -632,6 +632,30 @@ body {
 
 }
 
+.col-sm-6 .project-key-goal {
+    color: white;
+    border: 2px solid white;
+    margin-top: 25px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 50px;
+    height: auto;
+    background-color: #9c9fa1;
+    border-color: black;
+    border-width: medium;
+}
+
+
+
+.col-sm-6 .project-key-goal .key-goal-content {
+    margin: 20px;
+    color: #000000;
+}
+
+
+
+
+
 
 
 
@@ -698,7 +722,7 @@ body {
     }
 
     .col-sm-6 .img-responsive {
-/*        margin-top: 92px !important;*/
+        /*        margin-top: 92px !important;*/
         width: 100% !important;
         height: auto !important;
     }
@@ -830,6 +854,8 @@ body {
     }
 
 
+
+
     .common-horizontal-line {
         margin-right: 58px !important;
         margin-top: 40px !important;
@@ -863,11 +889,12 @@ body {
     }
 
     .col-sm-6 .img-responsive {
-/*        margin-top: 92px !important;*/
+        /*        margin-top: 92px !important;*/
         width: 100% !important;
         height: auto !important;
         max-width: 100% !important;
     }
+
 
     .col-md-12 .common-title .skills-header {
         margin-top: 0px !important;
@@ -982,7 +1009,7 @@ body {
         color: white;
         text-align: center;
         letter-spacing: 0.07em;
-/*        margin: 0px !important;*/
+        /*        margin: 0px !important;*/
         height: auto;
         width: auto;
         font-family: 'Roboto', sans-serif;
