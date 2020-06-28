@@ -97,13 +97,13 @@ body {
 
 /**********PROJECT SECTION STARTS HERE**********/
 
-.col-sm-6 .img-responsive {
+.col-lg .img-responsive {
     width: 100%;
     height: auto;
 
 }
 
-.col-sm-6 .project-1-header {
+.col-md .project-1-header {
     color: white;
     text-align: center;
     margin: 50px;
@@ -111,7 +111,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.col-sm-6 .about-me-title {
+.col-md .about-me-title {
     color: white;
     text-align: center;
     /*    margin: 50px;*/
@@ -125,7 +125,7 @@ body {
 }
 
 
-.col-sm-6 .project-1-paragraph {
+.col-md .project-1-paragraph {
     color: white;
     text-align: center;
     letter-spacing: 0.07em;
@@ -140,7 +140,7 @@ body {
 
 /*Project 1 Button*/
 
-.col-sm-6 .project-button-1 .btn {
+.col-md .project-button-1 .btn {
     color: white;
     border: 2px solid white;
     margin-top: 25px;
@@ -149,7 +149,7 @@ body {
     padding: 15px;
 }
 
-.col-sm-6 .project-button-1 .btn:hover {
+.col-md .project-button-1 .btn:hover {
     background-color: white;
     color: black;
     /*    font-weight: 300;*/
@@ -158,7 +158,7 @@ body {
 }
 
 /*Project Button  GITHUB  */
-.col-sm-6 .project-github .btn {
+.col-md .project-github .btn {
     color: white;
     border: 2px solid white;
     margin-top: 25px;
@@ -171,7 +171,7 @@ body {
     width: 70% !important;
 }
 
-.col-sm-6 .project-github .btn:hover {
+.col-md .project-github .btn:hover {
     background-color: white;
     color: black;
     /*    font-weight: 300;*/
@@ -180,7 +180,7 @@ body {
 }
 
 /*Project Button  ACTUAL WEBSITE  */
-.col-sm-6 .project-website .btn {
+.col-md .project-website .btn {
     color: white;
     border: 2px solid white;
     margin-top: 25px;
@@ -190,7 +190,7 @@ body {
     margin-right: 54px;
 }
 
-.col-sm-6 .project-website .btn:hover {
+.col-md .project-website .btn:hover {
     background-color: white;
     color: black;
     /*    font-weight: 300;*/
@@ -209,7 +209,7 @@ body {
 
 
 
-.col-sm-6 .myrole-section {
+.col-md .myrole-section {
     width: 50%;
     height: 50px;
     width: 50%;
@@ -218,20 +218,20 @@ body {
     float: left;
 }
 
-.col-sm-6 .myrole-section .rightside {
+.col-md .myrole-section .rightside {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     color: white;
 }
 
-.col-sm-6 .maingoal-section {
+.col-md .maingoal-section {
     width: 50%;
     height: auto;
     float: left;
     padding: 18px;
 }
 
-.col-sm-6 .maingoal-section .leftside {
+.col-md .maingoal-section .leftside {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     color: white;
@@ -668,22 +668,22 @@ body {
         opacity: 1.9 !important;
     }
 
-    .col-sm-6 .maingoal-section {
+    .col-md .maingoal-section {
         float: none;
         margin: 0 auto;
     }
 
-    .col-sm-6 .myrole-section {
+    .col-md .myrole-section {
         float: none;
         margin: 0 auto;
     }
 
-    .col-sm-6 .project-github .btn {
+    .col-md .project-github .btn {
         margin-left: 0px !important;
         margin-right: 0px !important;
     }
 
-    .col-sm-6 .project-website .btn {
+    .col-md .project-website .btn {
         margin-left: 0px !important;
         margin-right: 0px !important;
     }
@@ -699,14 +699,14 @@ body {
         margin-top: 40px !important;
     }
 
-    .col-sm-6 .project-1-paragraph {
+    .col-md .project-1-paragraph {
         margin-left: 0px !important;
         text-align: center !important;
         margin: 0 auto !important;
         padding: 20px !important;
     }
 
-    .col-sm-6 .project-1-header {
+    .col-md .project-1-header {
         text-align: center !important;
         margin-right: 0px !important;
         margin: 0 auto !important;
@@ -715,7 +715,7 @@ body {
 
     }
 
-    .col-sm-6 .about-me-title {
+    .col-md .about-me-title {
         margin: 0 auto !important;
         text-align: center !important;
 
@@ -727,7 +727,12 @@ body {
         height: auto !important;
     }
 
-    .col-md-12 .common-title .skills-header {
+    .container .img-responsive {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .col-md .common-title .skills-header {
         margin-top: 0px !important;
     }
 
@@ -737,7 +742,7 @@ body {
     }
 */
 
-    .col-md-12 .col-sm {
+    .col-md .col-sm {
         margin-right: 10px !important;
         padding: 40px !important;
     }
@@ -748,22 +753,22 @@ body {
         opacity: 1.9 !important;
     }
 
-    .col-sm-6 .maingoal-section {
+    .col-md .maingoal-section {
         float: none;
         margin: 0 auto;
     }
 
-    .col-sm-6 .myrole-section {
+    .col-md .myrole-section {
         float: none;
         margin: 0 auto;
     }
 
-    .col-sm-6 .project-github .btn {
+    .col-md.project-github .btn {
         margin-left: 0px !important;
         margin-right: 0px !important;
     }
 
-    .col-sm-6 .project-website .btn {
+    .col-md .project-website .btn {
         margin-left: 0px !important;
         margin-right: 0px !important;
     }
@@ -786,14 +791,14 @@ body {
         margin-top: 40px !important;
     }
 
-    .col-sm-6 .project-1-paragraph {
+    .col-md .project-1-paragraph {
         margin-left: 0px !important;
         text-align: center !important;
         margin: 0 auto !important;
         padding: 20px !important;
     }
 
-    .col-sm-6 .project-1-header {
+    .col-md .project-1-header {
         text-align: center !important;
         margin-right: 0px !important;
         margin: 0 auto !important;
@@ -814,13 +819,13 @@ body {
     }
 */
 
-    .col-md-12 .common-title .skills-header {
+    .col-md .common-title .skills-header {
         margin-top: 0px !important;
     }
 
 
 
-    .col-md-12 .col-sm {
+    .col-md .col-sm {
         margin-right: 10px !important;
         padding: 40px !important;
     }
@@ -833,22 +838,22 @@ body {
         opacity: 1.9 !important;
     }
 
-    .col-sm-6 .maingoal-section {
+    .col-md .maingoal-section {
         float: none;
         margin: 0 auto;
     }
 
-    .col-sm-6 .myrole-section {
+    .col-md .myrole-section {
         float: none;
         margin: 0 auto;
     }
 
-    .col-sm-6 .project-github .btn {
+    .col-md .project-github .btn {
         margin-left: 0px !important;
         margin-right: 0px !important;
     }
 
-    .col-sm-6 .project-website .btn {
+    .col-md .project-website .btn {
         margin-left: 0px !important;
         margin-right: 0px !important;
     }
@@ -866,14 +871,14 @@ body {
         margin-top: 40px !important;
     }
 
-    .col-sm-6 .project-1-paragraph {
+    .col-md .project-1-paragraph {
         margin-left: 0px !important;
         text-align: center !important;
         margin: 0 auto !important;
         padding: 20px !important;
     }
 
-    .col-sm-6 .project-1-header {
+    .col-md .project-1-header {
         text-align: center !important;
         margin-right: 0px !important;
         margin: 0 auto !important;
@@ -882,7 +887,7 @@ body {
 
     }
 
-    .col-sm-6 .about-me-title {
+    .col-md .about-me-title {
         margin: 0 auto !important;
         text-align: center !important;
 
@@ -917,22 +922,22 @@ body {
         opacity: 1.9 !important;
     }
 
-    .col-sm-6 .maingoal-section {
+    .col-md .maingoal-section {
         float: none;
         margin: 0 auto;
     }
 
-    .col-sm-6 .myrole-section {
+    .col-md .myrole-section {
         float: none;
         margin: 0 auto;
     }
 
-    .col-sm-6 .project-github .btn {
+    .col-md .project-github .btn {
         margin-left: 0px !important;
         margin-right: 0px !important;
     }
 
-    .col-sm-6 .project-website .btn {
+    .col-md .project-website .btn {
         margin-left: 0px !important;
         margin-right: 0px !important;
     }
@@ -945,24 +950,22 @@ body {
     }
 */
 
-    .common-horizontal-line {
-        margin-right: 58px !important;
-        margin-top: 40px !important;
-        width: 70% !important;
+    .col-md .common-horizontal-line {
+        display: none;
     }
 
     .horizontal-line-project1 {
         margin-top: 40px !important;
     }
 
-    .col-sm-6 .project-1-paragraph {
+    .col-md .project-1-paragraph {
         margin-left: 0px !important;
         text-align: center !important;
         margin: 0 auto !important;
         padding: 20px !important;
     }
 
-    .col-sm-6 .project-1-header {
+    .col-md .project-1-header {
         text-align: center !important;
         margin-right: 0px !important;
         margin: 0 auto !important;
