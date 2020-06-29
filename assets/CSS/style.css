@@ -611,7 +611,7 @@ body {
 }
 
 .container .problem-para-1 {
-    font-size: 20px;
+    font-size: 25px;
     margin: 53px;
     color: white;
     text-align: center;
@@ -677,6 +677,17 @@ body {
         float: none;
         margin: 0 auto;
     }
+
+    .container .problem-header {
+
+        margin: 28px !important;
+    }
+
+    .container .problem-para-1 {
+        margin-top: 0px !important;
+    }
+
+
 
     .col-md .project-github .btn {
         margin-left: 0px !important;
@@ -843,6 +854,11 @@ body {
         margin: 0 auto;
     }
 
+    .container .img-responsive {
+        width: 100% !important;
+        height: auto !important;
+    }
+
     .col-md .myrole-section {
         float: none;
         margin: 0 auto;
@@ -1007,6 +1023,13 @@ body {
         margin: 0px !important;
     }
 
+/*
+    .container .img-responsive {
+        width: 100% !important;
+        height: auto !important;
+    }
+*/
+
 
     .col-sm-6 .project-1-paragraph {
         color: white;
@@ -1032,4 +1055,11 @@ body {
         margin: 0px !important;
 
     }
+
+/*
+    .container .img-responsive {
+        width: 100% !important;
+        height: auto !important;
+    }
+*/
 }
